@@ -1,2 +1,6 @@
-console.log('hello world');
-
+let app = new Vue({
+  el: "#app",
+  data: {
+    message: "Hello!"
+  }
+});
