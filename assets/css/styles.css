@@ -38,13 +38,13 @@ main {
 }
 
 i {
-  color: white;
+  color: lightslategray;
   font-size: 50px;
   margin-top: 15px;
 }
 
 i:hover {
-  color: lightblue;
+  color: white;
 }
 
 .fa-angle-left {
@@ -70,4 +70,12 @@ nav {
   position: fixed;
   bottom: 0;
   justify-content: space-evenly;
+}
+
+/* Media Queries  */
+
+@media (min-width: 400px) {
+  html {
+    background-color: green;
+  }
 }
