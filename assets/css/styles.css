@@ -48,7 +48,7 @@ i:hover {
 }
 
 .fa-angle-left {
-  margin-right: 15px;
+  margin-left: 15px;
 }
 
 section {
@@ -58,7 +58,7 @@ section {
   overflow: hidden;
   position: fixed;
   top: 0;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 nav {
