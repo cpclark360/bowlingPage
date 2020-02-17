@@ -9,12 +9,11 @@
 html {
   height: 100%;
   width: 100%;
-  font-family: 'Roboto', sans-serif;
-  
+  font-family: sans-serif;
+
   height: 812px;
   width: 375px;
 }
-
 
 body {
   display: flex;
@@ -24,7 +23,7 @@ body {
   text-align: center;
   height: 812px;
   width: 375px;
-  
+
   flex-direction: column;
   align-items: center;
   /* margin-left: 187.5px;
@@ -76,6 +75,12 @@ section {
   z-index: 0;
 }
 
+.header-image {
+  z-index: -1;
+  height: 250px;
+  width: 550px;
+}
+
 .profile-image {
   border-radius: 100%;
   box-shadow: 20px 30px 75px rgba(0, 0, 0, 0.4);
@@ -88,11 +93,12 @@ section {
 }
 
 .stats {
+  color: black;
   display: inline-block;
   font-size: 12px;
   font-weight: 700;
   float: left;
-  margin: 10px 0  0 20px;
+  margin: 10px 0 0 20px;
   position: relative;
   text-transform: uppercase;
   width: 20%;
