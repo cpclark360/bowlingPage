@@ -11,8 +11,8 @@ html {
   width: 100%; */
   font-family: sans-serif;
 
-  min-height: 812px;
-  min-width: 375px;
+  height: 812px;
+  width: 375px;
 }
 
 body {
