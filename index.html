@@ -29,6 +29,7 @@
       <!-- Profile stats -->
       <div>
         <img
+          v-bind:title="name"
           src="./assets/images/profile.jpg"
           alt="Cedric Clark"
           class="profile-image"
@@ -59,10 +60,13 @@
       <!-- /Bios -->
 
       <nav>
-        <i class="far fa-address-card "></i>
-        <i class="fas fa-bowling-ball"></i>
-        <i class="far fa-chart-bar"></i>
-        <i class="far fa-clipboard"></i>
+        <i v-bind:title="nav[0].text" class="far fa-address-card "></i>
+
+        <i v-bind:title="nav[1].text" class="fas fa-bowling-ball"></i>
+
+        <i v-bind:title="nav[2].text" class="far fa-chart-bar"></i>
+
+        <i v-bind:title="nav[3].text" class="far fa-clipboard"></i>
       </nav>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>

@@ -1,6 +1,12 @@
 let app = new Vue({
   el: "#app",
   data: {
-    message: "Hello!"
+    name: "Cedric Clark",
+    nav: [
+      { text: "Profile" },
+      { text: "Arsenal" },
+      { text: "Scores" },
+      { text: "Notes" }
+    ]
   }
 });
