@@ -8,5 +8,6 @@ let app = new Vue({
       { text: "Scores" },
       { text: "Notes" }
     ]
-  }
+  },
+  methods: {}
 });
