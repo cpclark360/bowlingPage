@@ -102,8 +102,9 @@ section {
 .stats {
   color: black;
   display: inline-block;
-  font-size: 11px;
-  font-weight: 900;
+  font-size: 12px;
+  font-family: "Playfair Display";
+  font-weight: bold;
   float: left;
   margin: 5px 0px 0px -1px;
   position: relative;
@@ -113,12 +114,18 @@ section {
 
 .stats > span {
   display: inline-block;
-  font-weight: 700;
+  font-weight: bold;
   margin-top: 3px;
+}
+
+p {
+  font-family: "Playfair Display";
+  font-size: 16px;
 }
 
 .stats > p {
   font-weight: normal;
+  font-size: 14px;
 }
 
 .bio {
