@@ -120,12 +120,13 @@ section {
 
 p {
   font-family: "Playfair Display";
-  font-size: 16px;
+  color: white;
 }
 
 .stats > p {
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
+  color: white;
 }
 
 .bio {
@@ -145,7 +146,7 @@ p.title {
   width: 200px;
   font-size: 20px;
   text-align: center;
-  color: black;
+  color: white;
   font-weight: bolder;
   padding: 1rem;
 }
@@ -161,10 +162,10 @@ p.title {
 }
 
 .description {
-  font-size: 14px;
+  font-size: 17px;
   padding: 1rem;
   text-align: left;
-  overflow: auto;
+  overflow-y: scroll;
   margin: 0;
 }
 
